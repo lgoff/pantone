@@ -1,0 +1,74 @@
+/*GENERAL STLYES*/
+
+h1 {
+    font-size: 100px;
+}
+
+/*NAV STYLES*/
+
+/*FAN STYLES*/
+
+div#fan {
+    width: 182px;
+    height: 262px;
+    margin: 0 auto;
+}
+
+div#fan img {
+    width: 182px;
+    height: 262px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+      transform-origin: center 400px; 
+  transition: all .6s linear; 
+}
+
+div#fan:hover img:first-child,
+div#fan:active img:first-child {
+    transform: rotate(20deg);
+}
+
+div#fan:hover img:nth-child(2),
+div#fan:active img:nth-child(2) {
+    transform: rotate(16deg);
+}
+
+div#fan:hover img:nth-child(3),
+div#fan:active img:nth-child(3) {
+    transform: rotate(12deg);
+}
+
+div#fan:hover img:nth-child(4),
+div#fan:active img:nth-child(4) {
+    transform: rotate(8deg);
+}
+
+div#fan:hover img:nth-child(5),
+div#fan:active img:nth-child(5) {
+    transform: rotate(4deg);
+}
+
+div#fan:hover img:nth-child(6),
+div#fan:active img:nth-child(6) {
+    transform: rotate(0deg);
+}
+
+div#fan:hover img:nth-child(7),
+div#fan:active img:nth-child(7) {
+    transform: rotate(-4deg);
+}
+
+div#fan:hover img:nth-child(8),
+div#fan:active img:nth-child(8) {
+    transform: rotate(-8deg);
+}
+
+div#fan:hover img:nth-child(9),
+div#fan:active img:nth-child(9) {
+    transform: rotate(-12deg);
+}
+
+div#fan:hover img:last-child,
+div#fan:active img:last-child {
+    transform: rotate(-16deg);
+}
